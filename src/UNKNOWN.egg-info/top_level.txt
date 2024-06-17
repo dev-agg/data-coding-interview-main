@@ -1,0 +1,3 @@
+common
+stories_author
+stories_metadata

@@ -1,0 +1,16 @@
+# Number of days of inactivity before a PR becomes stale
+daysUntilStale: 60
+# Number of days of inactivity before a stale PR is closed
+daysUntilClose: 14
+# PRs with these labels will never be considered stale
+exemptLabels:
+  - pinned
+# Label to use when marking a PR as stale
+staleLabel: stale
+# Comment to post when marking a PR as stale. Set to `false` to disable
+markComment: >
+  This PR has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs.
+# Comment to post when closing a stale PR. Set to `false` to disable
+closeComment: false
+only: pulls
